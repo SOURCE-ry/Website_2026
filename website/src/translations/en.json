@@ -1,0 +1,11 @@
+{
+    "language": "en",
+    "nav": {
+        "home": "Home",
+        "board": "Board",
+        "partners": "Partners"
+    },
+    "hero": {
+        "title": "Hullo :)"
+    }
+}

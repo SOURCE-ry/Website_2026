@@ -1,4 +1,17 @@
-h1 {
+@font-face {
+    font-family: Inconsolata;
+    src: url('../../public/fonts/Inconsolata-Regular.ttf');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: Inconsolata Bold;
+    src: url('../../public/fonts/Inconsolata-Bold.ttf');
+    font-weight: bold;
+}
+
+html {
+    font-family: Inconsolata;
     color: black;
     text-align: center;
 }

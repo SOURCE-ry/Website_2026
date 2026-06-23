@@ -1,0 +1,11 @@
+{
+    "language": "fi",
+    "nav": {
+        "home": "Koti",
+        "board": "Hallitus",
+        "partners": "Yhteistyökumppanit"
+    },
+    "hero": {
+        "title": "Moro :)"
+    }
+}
