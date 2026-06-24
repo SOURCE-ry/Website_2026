@@ -1,12 +1,12 @@
 @font-face {
     font-family: Inconsolata;
-    src: url('../../public/fonts/Inconsolata-Regular.ttf');
+    src: url('/global/fonts/Inconsolata-Regular.ttf');
     font-weight: normal;
 }
 
 @font-face {
     font-family: Inconsolata Bold;
-    src: url('../../public/fonts/Inconsolata-Bold.ttf');
+    src: url('/global/fonts/Inconsolata-Bold.ttf');
     font-weight: bold;
 }
 

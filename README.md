@@ -8,12 +8,38 @@ The goal of the website is to be accessible. Website works both in finnish and e
 
 ## Building for dev use:
 
+### Using port 5500 (safer)
+
 Run in folder:
 
-`docker build -t sourcery .`
+- `docker build -t sourcery . && docker run -p 5500:80 --name SOURCEry --rm sourcery`
 
-`docker run -p 5500:80`
+Open `localhost:5500` on web.
 
-Open `localhost:5500` on website. Site is in: website -> public
+Remember to delete container and volume if not needed anymore.
+
+**Warning**
+
+Navigation links won't work correctly, since they connect to port 80 natively.
+
+**Fix**
+
+Click link and when site doesn't load add :5500 after localhost, but before /board, /titelan etc.
+
+### Using port 80 (faster)
+
+Run in folder:
+
+`docker build -t sourcery . && docker run -p 80:80 --name SOURCEry --rm sourcery`
+
+Open `localhost` on web.
+
+Remember to delete image if not needed anymore. Container autoremoves itself after use.
+
+**Warning**
+
+Port 80 may already be in use and docker may need privileged access to open it.
+
+It may override other web services, so remeber to shut down container after testing.
 
 @ Oskari Järvinen 2026
