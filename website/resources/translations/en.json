@@ -1,11 +1,39 @@
 {
-    "language": "en",
-    "nav": {
-        "home": "Home",
-        "board": "Board",
-        "partners": "Partners"
-    },
-    "hero": {
-        "title": "Hullo :)"
-    }
+    "langButton": "FI",
+
+    "nav.home": "Home",
+    "nav.membership": "Membership",
+    "nav.events": "Events",
+    "nav.titelan": "Titelan",
+    "nav.products": "Products",
+    "nav.partners": "Partners",
+    "nav.association": "Association",
+    "nav.board": "Board",
+    "nav.contact": "Contact",
+
+    "home.subtitle": "Hullo :)",
+
+    "membership.title": "SOURCE ry Membership",
+    "membership.subtitle": "Hello :)",
+
+    "events.title": "SOURCE ry Events",
+    "events.subtitle": "Hi :)",
+
+    "titelan.title": "SOURCE ry Titelan",
+    "titelan.subtitle": "Hello there :)",
+
+    "products.title": "SOURCE ry Products",
+    "products.subtitle": "Hey :)",
+
+    "partners.title": "SOURCE ry Partners",
+    "partners.subtitle": "Hi there :)",
+
+    "association.title": "SOURCE ry Association",
+    "association.subtitle": "Hi hi :)",
+
+    "board.title": "SOURCE ry Board",
+    "board.subtitle": "Helloooo :)",
+
+    "contact.title": "SOURCE ry Contact",
+    "contact.subtitle": "Hello hello :)"
 }

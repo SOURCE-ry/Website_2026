@@ -1,11 +1,39 @@
 {
-    "language": "fi",
-    "nav": {
-        "home": "Koti",
-        "board": "Hallitus",
-        "partners": "Yhteistyökumppanit"
-    },
-    "hero": {
-        "title": "Moro :)"
-    }
+    "langButton": "EN",
+
+    "nav.home": "Etusivu",
+    "nav.membership": "Jäsenyys",
+    "nav.events": "Tapahtumat",
+    "nav.titelan": "Titelan",
+    "nav.products": "Tuotteet",
+    "nav.partners": "Yhteistyökumppanit",
+    "nav.association": "Yhdistys",
+    "nav.board": "Hallitus",
+    "nav.contact": "Yhteystiedot",
+
+    "home.subtitle": "Moro :)",
+
+    "membership.title": "SOURCE ry Jäsenyys",
+    "membership.subtitle": "Terve :)",
+
+    "events.title": "SOURCE ry Tapahtumat",
+    "events.subtitle": "Hei :)",
+
+    "titelan.title": "SOURCE ry Titelan",
+    "titelan.subtitle": "Moeee :)",
+
+    "products.title": "SOURCE ry Tuotteet",
+    "products.subtitle": "Hellurei :)",
+
+    "partners.title": "SOURCE ry Yhteistyökumppanit",
+    "partners.subtitle": "Terve :)",
+
+    "association.title": "SOURCE ry Yhdistys",
+    "association.subtitle": "Tervee :)",
+
+    "board.title": "SOURCE ry Hallitus",
+    "board.subtitle": "Morooooo :)",
+
+    "contact.title": "SOURCE ry Yhteystiedot",
+    "contact.subtitle": "Terve terve :)"
 }

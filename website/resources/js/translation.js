@@ -1,46 +1,32 @@
-const response = await fetch('/resources/translations/en.json');
-const en = await response.json();
-
-const fiResponse = await fetch('/resources/translations/fi.json');
-const fi = await fiResponse.json();
-
-// Helper function for displaying the translated text on the page
-const Translate = (elementId, translationKey) => {
-    const element = document.getElementById(elementId);
+// Load translations from JSON file
+async function loadLang(lang) {
+  const res = await fetch(`/resources/translations/${lang}.json`);
+  const translations = await res.json();
+  document.querySelectorAll("[data-translate]").forEach(element => {
     if (!element) {
-        console.error(`Element with id '${elementId}' not found`);
+        console.error(`Element not found`);
     }
-    
+    const key = element.getAttribute("data-translate");
     if (element.tagName === 'INPUT' || element.tagName === 'TEXTAREA') {
-        element.value = translationKey;
+        element.value = translations[key] || key;
     } else {
-        element.textContent = translationKey;
+        element.textContent = translations[key] || key;
     }
-};
-
-var lang = {}; // Default language is Finnish
-
-// Language button toggle function
-
-const ToggleLanguage = () => {
-    if (lang.language === "fi") {
-        Translate('lang-button', 'FI');
-        lang = en;
-    }
-    else {
-        Translate('lang-button', 'EN');
-        lang = fi;
-    }
-    TranslateHome();
+  });
 }
 
-document.querySelector('button').addEventListener('click', ToggleLanguage);
+// Detect language from URL
+var lang = location.pathname.startsWith("/en/") ? "en" : "fi";
+loadLang(lang);
 
-// Functions to translate each site
-// 1. Home page
-const TranslateHome = () => {
-    Translate('hero-title', lang.hero.title);
-    Translate('nav-home', lang.nav.home);
-    Translate('nav-board', lang.nav.board);
-    Translate('nav-partners', lang.nav.partners);
+// Toggle language button functionality
+function ToggleLanguage() {
+    if (location.pathname.startsWith("/en/")){
+        location.pathname = location.pathname.replace("/en/", "/");
+    } else {
+        location.pathname = "/en" + location.pathname;
+    }
 }
+
+// Add event listener to the language toggle button
+document.getElementById("lang-button").addEventListener("click", ToggleLanguage);

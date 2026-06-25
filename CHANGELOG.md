@@ -2,9 +2,28 @@
 
 Brief information what was added, removed or changed each day to keep track.
 
-## 24/6/2026
+## 25/6/2026
 
 ### Added
+
+- Membership page
+- Events page
+- Products page
+- Association page
+- Contact page
+
+### Changed
+
+- Translation.js
+    - Redo localisation js to make dynamic translation
+- nginx.conf
+    - Add /en/ routing for better url and SEO
+    - Remove redundant index index.html
+- all index.html files
+    - Change IDs to data keys
+    - Change nav href to dynamic for localisation
+
+## 24/6/2026
 
 ### Changed
 

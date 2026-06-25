@@ -9,16 +9,22 @@
 
 </head>
 <nav>
-    <button id="lang-button" type="button">Language</button>
+    <button id="lang-button" type="button" data-translate="langButton"></button>
     <ul>
-        <li><a href="/" id="nav-home">Home</a></li>
-        <li><a href="/board/" id="nav-board">Board</a></li>
-        <li><a href="/partners/" id="nav-partners">Partners</a></li>
+        <li><a href="./" data-translate="nav.home"></a></li>
+        <li><a href="./membership/" data-translate="nav.membership"></a></li>
+        <li><a href="./events/" data-translate="nav.events"></a></li>
+        <li><a href="./titelan/" data-translate="nav.titelan"></a></li>
+        <li><a href="./products/" data-translate="nav.products"></a></li>
+        <li><a href="./partners/" data-translate="nav.partners"></a></li>
+        <li><a href="./association/" data-translate="nav.association"></a></li>
+        <li><a href="./board/" data-translate="nav.board"></a></li>
+        <li><a href="./contact/" data-translate="nav.contact"></a></li>
     </ul>
 </nav>
 <body>
     <h1>SOURCE ry</h1>
-    <p id="hero-title"></p>
-    <script type="module" src="/resources/js/translation.js"></script>
+    <p data-translate="home.subtitle"></p>
+    <script type="module" src="/resources/js/translation.js" defer></script>
 </body>
 </html>
