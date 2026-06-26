@@ -12,6 +12,70 @@
 
 html {
     font-family: Inconsolata;
-    color: black;
+    font-size: 1rem;
+    color: white;
     text-align: center;
+    background-color: #121212;
+}
+
+#lang-button {
+    background-color: #fea136;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+h3 {
+    font-size: 1.25rem;
+}
+
+a {
+    color: #3693fe;
+}
+
+a:hover {
+    color: #0177fe;
+}
+
+a:visited {
+    color: #fe36f7;
+}
+
+.separator-5px {
+    background-color: #36fe3d;
+    height: 5px;
+}
+
+.all-sections {
+    display: grid;
+    grid-template-areas:
+        "nav nav"
+        "menu content";
+    grid-template-columns: 1fr 3fr;
+    gap: 0.3rem;
+    width: 80%;
+    padding: 0.3rem;
+}
+
+.nav-section {
+    grid-area: nav;
+    background-color: #1E1E1E;
+}
+
+.aside-section {
+    grid-area: menu;
+    background-color: #1E1E1E;
+}
+
+.content-section {
+    grid-area: content;
+    background-color: #1E1E1E;
 }

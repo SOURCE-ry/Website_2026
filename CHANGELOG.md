@@ -2,6 +2,20 @@
 
 Brief information what was added, removed or changed each day to keep track.
 
+## 26/6/2026
+
+### Changed
+
+- nginx.conf
+    - Fix en routing
+- all index.html
+    - Change nav link paths
+    - Change nav location
+- style.css
+    - Add dark color scheme
+- en.json and fi.json
+    - Add test translation with longer keys
+
 ## 25/6/2026
 
 ### Added
