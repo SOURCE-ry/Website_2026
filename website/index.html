@@ -2,28 +2,26 @@
 <html>
 <head>
 <title>SOURCE ry</title>
-
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link rel="stylesheet" type="text/css" href="/resources/css/style.css">
 <link rel="icon" type="image/x-icon" href="/resources/images/favicon.ico">
-
 </head>
 <body>
+    <header>
     <nav class="nav-section">
-    <button id="lang-button" type="button" data-translate="langButton"></button>
-    <ul>
-        <li><a href="./" data-translate="nav.home"></a></li>
-        <li><a href="./membership" data-translate="nav.membership"></a></li>
-        <li><a href="./events" data-translate="nav.events"></a></li>
-        <li><a href="./titelan" data-translate="nav.titelan"></a></li>
-        <li><a href="./products" data-translate="nav.products"></a></li>
-        <li><a href="./partners" data-translate="nav.partners"></a></li>
-        <li><a href="./association" data-translate="nav.association"></a></li>
-        <li><a href="./board" data-translate="nav.board"></a></li>
-        <li><a href="./contact" data-translate="nav.contact"></a></li>
-    </ul>
+        <button id="lang-button" type="button" data-translate="langButton"></button>
+        <ul>
+            <li><a href="./" data-translate="home"></a></li>
+            <li><a href="./partners" data-translate="partners"></a></li>
+            <li><a href="./events" data-translate="events"></a></li>
+            <li><a href="./titelan" data-translate="titelan"></a></li>
+            <li><a href="./students" data-translate="students"></a></li>
+            <li><a href="./about" data-translate="about"></a></li>
+            <li><a href="./contact" data-translate="contact"></a></li>
+        </ul>
     </nav>
-    <div class="separator-5px"></div>
+    </header>
+    <section class="separator-5px"></section>
     <section class="all-sections">
         <aside class="aside-section">
             <h2 data-translate="home.aside.title"></h2>
@@ -34,6 +32,12 @@
             <p data-translate="home.subtitle"></p>
         </section>
     </section>
+    <footer class="footer-section">
+        <p>
+            <script>document.write(new Date().getFullYear())</script>
+            <span id="spanYear" data-translate="footer.text"></span>
+        </p>
+    </footer>
     <script type="module" src="/resources/js/translation.js" defer></script>
 </body>
 </html>

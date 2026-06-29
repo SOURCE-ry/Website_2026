@@ -2,6 +2,25 @@
 
 Brief information what was added, removed or changed each day to keep track.
 
+## 29/6/2026
+
+### Added
+
+- about and students subsites
+
+### Changed
+
+- README.md
+    - Updated dev guide
+- nginx.conf
+    - Update routing paths
+- All index.html
+    - Added skeleton for sections and anchors
+
+### Removed
+
+- board, association, products and membership subsites
+
 ## 26/6/2026
 
 ### Changed
