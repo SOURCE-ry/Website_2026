@@ -2,6 +2,22 @@
 
 Brief information what was added, removed or changed each day to keep track.
 
+## 1/7/2026
+
+### Added
+
+- hero.png
+
+### Changed
+
+- All index.html
+    - Changed nav bar
+- style.css
+    - Changed structure
+    - Added nav styling
+- favicon.ico
+    - Changed to better quality
+
 ## 29/6/2026
 
 ### Added
@@ -16,7 +32,8 @@ Brief information what was added, removed or changed each day to keep track.
     - Update routing paths
 - All index.html
     - Added skeleton for sections and anchors
-
+- en.json and fi.json
+    - Added more translations
 ### Removed
 
 - board, association, products and membership subsites

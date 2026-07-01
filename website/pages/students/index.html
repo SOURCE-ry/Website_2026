@@ -6,21 +6,25 @@
 <link rel="stylesheet" type="text/css" href="/resources/css/style.css">
 <link rel="icon" type="image/x-icon" href="/resources/images/favicon.ico">
 </head>
-<header>
-    <nav>
-        <button id="lang-button" type="button" data-translate="langButton"></button>
-        <ul>
-            <li><a href="../" data-translate="home"></a></li>
-            <li><a href="../partners" data-translate="partners"></a></li>
-            <li><a href="../events" data-translate="events"></a></li>
-            <li><a href="../titelan" data-translate="titelan"></a></li>
-            <li><a href="./" data-translate="students"></a></li>
-            <li><a href="../about" data-translate="about"></a></li>
-            <li><a href="../contact" data-translate="contact"></a></li>
-        </ul>
-    </nav>
-</header>
 <body>
+    <header class="nav-header">
+        <nav class="nav-inner">
+            <a href="../" class="nav-logo">
+                <img src="/resources/images/favicon.ico" alt="SOURCE ry logo" />
+            </a>
+            <nav class="nav-links">
+                <a href="../partners" class="nav-trigger" data-translate="partners"></a>
+                <a href="../events" class="nav-trigger" data-translate="events"></a>
+                <a href="../titelan" class="nav-trigger" data-translate="titelan"></a>
+                <a href="./" class="nav-trigger" data-translate="students"></a>
+                <a href="../about" class="nav-trigger" data-translate="about"></a>
+                <a href="../contact" class="nav-trigger" data-translate="contact"></a>
+            </nav>
+            <nav class="nav-right">
+                <button class="nav-lang-button" id="lang-button" type="button" data-translate="langButton"></button>
+            </nav>
+        </nav>
+    </header>
     <h1 data-translate="students.title"></h1>
     <p data-translate="students.subtitle"></p>
     <h2 id="students-benefits" data-translate="students.title.2"></h2>
