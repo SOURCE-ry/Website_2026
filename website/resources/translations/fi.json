@@ -9,9 +9,10 @@
     "about": "Meistä",
     "contact": "Yhteystiedot",
 
-    "home.aside.title": "SOURCE ry Discord",
-    "home.aside.text": "Liity Discord-palvelimellemme!",
-    "home.subtitle": "Moro :)",
+    "home.para.1": "SOURCE ry on TAMKin tieto- ja viestintätekniikan ainekerho. Kerho on perustettu vuonna 2016. Yhdistykseksi rekisteröidyimme vuotta myöhemmin. Näkyvin osa kerhoamme on oma kerhohuoneemme, joka löytyy A-siiven kerhohuonekäytävän päästä, huoneesta A0-35.",
+    "home.para.2": "SOURCEn tarkoituksena tiivistää TiTe-verkostoa ja jakaa tietoa alamme mahdollisuuksista. SOURCE järjestää jäsenilleen mm. sauna- ja lautapeli-iltoja. Merkittävimpiä tapahtumiamme ovat perinteiset TiTeLANit.",
+    "home.para.3": "SOURCE toimii tiiviissä yhteistyössä Tamkon, TIRO ry:n sekä muiden TAMKin kerhojen kanssa, osallistumalla tapahtumien järjestämiseen.",
+    "home.para.4": "Kerhon jäseniksi ovat tervetulleita kaikki koulutusohjelmasta riippumatta. Yritysvierailut ovat kuitenkin suunnattu tietotekniikan opiskelijoille.",
 
     "partners.title": "SOURCE ry Yrityksille",
     "partners.subtitle": "Terve :)",
@@ -73,5 +74,5 @@
     "contact.title.3": "Yritysyhteistyö",
     "contact.subtitle.3": "ulkosuhteet@source.club",
 
-    "footer.text": "SOURCE ry."
+    "footer.text": "SOURCE ry"
 }

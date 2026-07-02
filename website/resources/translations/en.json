@@ -9,9 +9,10 @@
     "about": "About",
     "contact": "Contact",
 
-    "home.aside.title": "SOURCE ry Discord",
-    "home.aside.text": "Join our Discord server!",
-    "home.subtitle": "Hullo :)",
+    "home.para.1": "SOURCE ry is TAMK's information and communication technology student association. The association was founded in 2016 and registered as an association a year later. The most visible part of our association is our clubroom, which can be found at the end of the A-wing clubroom corridor, in room A0-35.",
+    "home.para.2": "SOURCE's purpose is to strengthen the TiTe network and share information about the opportunities in our field. SOURCE organizes events such as sauna and board game nights for its members, as well as a weekly sports shift. Our most significant events include the traditional TiTeLAN parties.",
+    "home.para.3": "SOURCE works closely with Tamko, TIRO ry, and other TAMK student associations by participating in the organization of events.",
+    "home.para.4": "All students are welcome to join the club regardless of their program. However, company visits are aimed at IT students.",
 
     "partners.title": "SOURCE ry Partners",
     "partners.subtitle": "Hi there :)",
@@ -73,5 +74,5 @@
     "contact.title.3": "Company Collaboration",
     "contact.subtitle.3": "ulkosuhteet@source.club",
 
-    "footer.text": "SOURCE ry."
+    "footer.text": "SOURCE ry"
 }

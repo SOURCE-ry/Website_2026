@@ -2,6 +2,26 @@
 
 Brief information what was added, removed or changed each day to keep track.
 
+## 2/2/2026
+
+### Added
+
+- istuva-potikka-480p.png
+- kyltti-potikka-480p.png
+
+### Changed
+
+- Home index.html
+    - Improve layout
+- style.css
+    - Improve site style
+- en.json and fi.json
+    - Added home paragraphs
+
+### Removed
+
+- source_logo_taustaton.png
+
 ## 1/7/2026
 
 ### Added
