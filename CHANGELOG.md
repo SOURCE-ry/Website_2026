@@ -2,7 +2,17 @@
 
 Brief information what was added, removed or changed each day to keep track.
 
-## 2/2/2026
+## 3/7/2026
+
+### Changed
+
+- All index.html
+    - Changed layout to every subpage
+    - Renamed classes
+- style.css
+    - Renamed classes and variables
+
+## 2/7/2026
 
 ### Added
 
@@ -42,7 +52,7 @@ Brief information what was added, removed or changed each day to keep track.
 
 ### Added
 
-- about and students subsites
+- about and students subpages
 
 ### Changed
 
@@ -56,7 +66,7 @@ Brief information what was added, removed or changed each day to keep track.
     - Added more translations
 ### Removed
 
-- board, association, products and membership subsites
+- board, association, products and membership subpages
 
 ## 26/6/2026
 
