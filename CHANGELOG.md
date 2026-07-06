@@ -2,6 +2,19 @@
 
 Brief information what was added, removed or changed each day to keep track.
 
+## 6/7/2026
+
+### Added
+
+- mobilemenu.js
+
+### Changed
+
+- style.css
+    - Adding mobile layout
+- index.html
+    - Added mobile menu
+
 ## 3/7/2026
 
 ### Changed
