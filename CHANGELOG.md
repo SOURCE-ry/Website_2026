@@ -2,6 +2,25 @@
 
 Brief information what was added, removed or changed each day to keep track.
 
+## 7/7/2026
+
+### Added
+
+- nav.js
+
+### Changed
+
+- style.css
+    - Improved mobile layout
+    - Improved mobile hamburger menu
+- mobilemenu.js
+    - Changed name to nav.js
+    - Added improvements and comments
+
+### Removed
+
+- mobilemenu.js
+
 ## 6/7/2026
 
 ### Added
@@ -11,9 +30,10 @@ Brief information what was added, removed or changed each day to keep track.
 ### Changed
 
 - style.css
-    - Adding mobile layout
+    - Added mobile layout
+    - Added mobile hamburger menu
 - index.html
-    - Added mobile menu
+    - Added mobile hamburger menu
 
 ## 3/7/2026
 
