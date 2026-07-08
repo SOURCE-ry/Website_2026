@@ -42,7 +42,7 @@ Linux & CMD:
 
 Powershell:
 
-- `(docker build -t sourcery .) -and (docker run -p 5500:80 --name SOURCEry --rm sourcery)`
+- `(docker build -t sourcery .) -and (docker run -p 80:80 --name SOURCEry --rm sourcery)`
 
 Open `localhost` on web.
 

@@ -2,6 +2,21 @@
 
 Brief information what was added, removed or changed each day to keep track.
 
+## 8/7/2026
+
+### Changed
+
+- README.md
+    - Fixed wrong port number in dev guide
+- style.css
+    - Changed fixed px sizes to relative rem and vw sizes
+    - Fixed bug in mobile layout where nav started always 82px from top
+    - Improved language button layout
+    - Improved mobile layout
+    - Cleaned unneccessary code
+- home index.html
+    - Fixed semantic error in nav structure
+
 ## 7/7/2026
 
 ### Added
