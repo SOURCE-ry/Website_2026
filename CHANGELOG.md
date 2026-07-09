@@ -2,6 +2,28 @@
 
 Brief information what was added, removed or changed each day to keep track.
 
+## 9/7/2026
+
+### Added
+
+- navbar.js
+- components folder
+- navbar.html
+
+### Changed
+
+- navbar.js
+    - Renamed from nav.js to navbar.js
+    - Created dynamic navbar with translations
+- translation.js
+    - Added event that triggers only when whole page is loaded.
+all index.html
+    - Added dynamic navbar
+
+### Removed
+
+- nav.js
+
 ## 8/7/2026
 
 ### Changed

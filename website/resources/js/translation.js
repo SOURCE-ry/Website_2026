@@ -15,10 +15,6 @@ async function loadLang(lang) {
   });
 }
 
-// Detect language from URL
-var lang = location.pathname.startsWith("/en/") ? "en" : "fi";
-loadLang(lang);
-
 // Toggle language button functionality
 function ToggleLanguage() {
     if (location.pathname.startsWith("/en/")){
@@ -28,5 +24,16 @@ function ToggleLanguage() {
     }
 }
 
-// Add event listener to the language toggle button
-document.getElementById("lang-button").addEventListener("click", ToggleLanguage);
+// Translate site only when navbar is loaded
+document.addEventListener("navbarLoaded", () => {
+    var lang = location.pathname.startsWith("/en/") ? "en" : "fi";
+    loadLang(lang);
+    
+    // Add event listener to the language toggle button
+    document.getElementById("lang-button").addEventListener("click", ToggleLanguage);
+});
+
+
+
+
+
