@@ -2,6 +2,21 @@
 
 Brief information what was added, removed or changed each day to keep track.
 
+## 10/7/2026
+
+### Added
+
+- source-logo-512p.png
+- source-logo-192p.png
+
+### Changed
+
+- navbar.html
+    - Changed logo to higher resolution
+- style.css
+    - Fixed little issues
+    - Styling navbar
+
 ## 9/7/2026
 
 ### Added
