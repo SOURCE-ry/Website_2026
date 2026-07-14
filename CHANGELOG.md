@@ -2,6 +2,19 @@
 
 Brief information what was added, removed or changed each day to keep track.
 
+## 14/7/2026
+
+### Changed
+
+- index.html
+    - Fixed order
+    - Added carousel section
+    - Added test images to carousel
+- style.css
+    - Added carousel 
+    - Styling carousel
+    - Styling carousel items
+
 ## 10/7/2026
 
 ### Added
