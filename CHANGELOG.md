@@ -2,6 +2,25 @@
 
 Brief information what was added, removed or changed each day to keep track.
 
+## 15/7/2026
+
+### Added
+
+- carousel.js
+
+### Changed
+
+- index.html
+    - Added carousel buttons
+    - Added carousel.js to index.html
+- style.css
+    - Fixed carousel styling issues
+    - Added carousel buttons styling
+    - Added mobile carousel styling
+    - Fixed carousel slide width and height
+- carousel.js
+    - Added carousel functionality
+
 ## 14/7/2026
 
 ### Changed

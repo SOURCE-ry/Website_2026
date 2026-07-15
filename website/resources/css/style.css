@@ -22,11 +22,13 @@ img { display: block; max-width: 65vw; }
 
 .bar { background-color: #ffffff; display: block; height: 0.1875rem; margin: 0.3125rem auto; width: 1.5625rem; }
 
+.carousel-button { background-color: var(--color-primary); border: 2px solid var(--color-primary-text); border-radius: 10px; color: var(--color-primary-text); cursor: pointer; display: block; font-family: Inconsolata; font-size: 1.5rem; height: 3rem; width: 3rem; }
+
 .footer { background-color: #000000; border-top: 2px solid var(--color-primary); padding: 0.1rem; text-align: center; }
 .footer-text { color: var(--color-primary-text); font-size: 1rem; }
 
 .item-carousel { display: flex; gap: 1.5rem; overflow-x: auto; scrollbar-width: none; scroll-behavior: smooth; scroll-snap-type: x mandatory; width: 100%; }
-.item-carousel-slide { background-color: var(--color-02db-elevation); flex: 0 0 calc((100% - (1.5rem * 8)) / 3); height: 20rem; justify-items: center; padding: 1.5rem; scroll-snap-align: start; }
+.item-carousel-slide { background-color: var(--color-02db-elevation); flex: 0 0 calc((100% - (1.5rem * 2)) / 3); height: 20rem; justify-items: center; scroll-snap-align: start; width:33.3%; }
 .item-carousel-slide img { display: block; height: 100%; object-fit: cover; width: auto; }
 .item-image { background-color: var(--color-01db-elevation); display: block; grid-area: image; justify-items: center; padding: 1rem; }
 .item-text { background-color: var(--color-01db-elevation); display: block; grid-area: text; padding: 1rem; text-align: center; }
@@ -46,7 +48,7 @@ img { display: block; max-width: 65vw; }
 .nav-right { align-items: center; display: flex; gap: 1rem; margin-left: auto; }
 .nav-trigger { cursor: pointer; padding: 0.5rem; }
 
-.section-carousel { background-color: var(--color-01db-elevation); padding: 1.5rem; }
+.section-carousel { display: flex; align-items: center; gap: 1.5rem;}
 .section-page { display: flex; flex-direction: column; gap: 1.5rem; margin: auto; max-width: var(--max-width-content); padding: 1.5rem; }
 .section-hero { background-color: #000000; border-bottom: 2px solid var(--color-primary); justify-items: center; padding: 2rem; text-align: center; }
 .section-image-right { display: grid; gap: 1.5rem; grid-template-areas: "text image"; grid-template-columns: 3fr 1fr; }
@@ -60,6 +62,8 @@ img { display: block; max-width: 65vw; }
 }
 
 @media screen and (max-width: 970px) {
+    .item-carousel-slide { flex: 0 0 100%; }
+
     .nav-hamburger { display: block; }
     .nav-links { align-items: center; background-color: var(--background-color-primary); border-bottom: 2px solid var(--color-primary); border-top: 2px solid var(--color-primary); display: none; flex-direction: column; left: 0; padding: 0.5rem 0; position: absolute; top: 100%; width: 100%; }
 
