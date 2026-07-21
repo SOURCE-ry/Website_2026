@@ -2,6 +2,26 @@
 
 Brief information what was added, removed or changed each day to keep track.
 
+## 21/7/2026
+
+- index.html
+    - Changed frontpage layout
+    - Added list with information
+- en.json and fi.json
+    - Added frontpage list translations
+- style.css
+    - Changed layouts
+
+## 20/7/2026
+
+### Changed
+
+- index.html
+    - Changed frontpage layout
+    - Changed paragraphs
+- en.json and fi.json
+    - Changed frontpage paragraphs
+
 ## 15/7/2026
 
 ### Added

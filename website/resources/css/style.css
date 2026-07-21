@@ -51,8 +51,8 @@ img { display: block; max-width: 65vw; }
 .section-carousel { display: flex; align-items: center; gap: 1.5rem;}
 .section-page { display: flex; flex-direction: column; gap: 1.5rem; margin: auto; max-width: var(--max-width-content); padding: 1.5rem; }
 .section-hero { background-color: #000000; border-bottom: 2px solid var(--color-primary); justify-items: center; padding: 2rem; text-align: center; }
-.section-image-right { display: grid; gap: 1.5rem; grid-template-areas: "text image"; grid-template-columns: 3fr 1fr; }
-.section-image-left { display: grid; gap: 1.5rem; grid-template-areas: "image text"; grid-template-columns: 1fr 3fr; }
+.section-image-right { display: grid; gap: 1.5rem; grid-template-areas: "text image"; grid-template-columns: 1fr 1fr; }
+.section-image-left { display: grid; gap: 1.5rem; grid-template-areas: "image text"; grid-template-columns: 1fr 1fr; }
 .section-text { background-color: var(--color-01db-elevation); padding: 1rem; }
 
 @media screen and (max-width: 1300px) {
