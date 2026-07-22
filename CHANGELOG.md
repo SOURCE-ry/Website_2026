@@ -2,7 +2,20 @@
 
 Brief information what was added, removed or changed each day to keep track.
 
+## 22/7/2026
+
+### Added
+
+- parter photos
+
+### Changed
+
+- index.html
+    - Added parter photos to frontpage
+
 ## 21/7/2026
+
+### Changed
 
 - index.html
     - Changed frontpage layout
