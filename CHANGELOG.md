@@ -2,6 +2,22 @@
 
 Brief information what was added, removed or changed each day to keep track.
 
+## 23/7/2026
+
+### Changed
+
+- nginx.conf
+    - Added /hallitus routing
+    - Added /en/hallitus routing
+- /pages/about
+    - Changed to board
+- board/index.html
+    - Changed about page to board page
+- navbar.js
+    - Changed about link to board link
+- en.json and fi.json
+    - Changed about translations to board translations
+
 ## 22/7/2026
 
 ### Added
@@ -11,7 +27,11 @@ Brief information what was added, removed or changed each day to keep track.
 ### Changed
 
 - index.html
-    - Added parter photos to frontpage
+    - Added parter logos to frontpage
+- style.css
+    - Added parter logos styling
+- en.json and fi.json
+    - Added parter title translation
 
 ## 21/7/2026
 

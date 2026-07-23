@@ -5,7 +5,7 @@ const locations = {
     "events": "/events",
     "titelan": "/titelan",
     "students": "/students",
-    "about": "/about",
+    "board": "/board",
     "contact": "/contact"
 };
 

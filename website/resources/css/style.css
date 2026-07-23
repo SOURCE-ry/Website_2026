@@ -1,4 +1,4 @@
-@font-face { font-family: Inconsolata; font-weight: normal; src: url('/global/fonts/Inconsolata-Regular.ttf'); }
+    @font-face { font-family: Inconsolata; font-weight: normal; src: url('/global/fonts/Inconsolata-Regular.ttf'); }
 @font-face { font-family: Inconsolata Bold; font-weight: bold; src: url('/global/fonts/Inconsolata-Bold.ttf'); }
 
 :root {
@@ -51,7 +51,9 @@ img { display: block; max-width: 65vw; }
 .nav-right { align-items: center; display: flex; gap: 1rem; margin-left: auto; }
 .nav-trigger { cursor: pointer; padding: 0.5rem; }
 
-.section-carousel { display: flex; align-items: center; gap: 1.5rem;}
+.section-board-current { display: flex; }
+.section-board-past { display: flex; }
+.section-carousel { display: flex; align-items: center; gap: 1.5rem; }
 .section-page { display: flex; flex-direction: column; gap: 1.5rem; margin: auto; max-width: var(--max-width-content); padding: 1.5rem; }
 .section-hero { background-color: #000000; border-bottom: 2px solid var(--color-primary); justify-items: center; padding: 2rem; text-align: center; }
 .section-image-right { display: grid; gap: 1.5rem; grid-template-areas: "text image"; grid-template-columns: 1fr 1fr; }

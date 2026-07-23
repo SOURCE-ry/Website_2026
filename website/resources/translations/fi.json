@@ -6,7 +6,7 @@
     "events": "Tapahtumat",
     "titelan": "Titelan",
     "students": "Opiskelijoille",
-    "about": "Meistä",
+    "board": "Hallitus",
     "contact": "Yhteystiedot",
 
     "home.para.1": "SOURCE ry on TAMKin tietotekniikan opiskelijoiden yhteisö, joka yhdistää tulevaisuuden ICT-osaajat, opiskelijaelämän ja työelämän mahdollisuudet. Rakennamme yhteisöllisyyttä, luomme verkostoja ja tuomme yhteen opiskelijoita, sekä alan yrityksiä.",
@@ -51,9 +51,8 @@
     "students.title.4": "Liity jäseneksi",
     "students.subtitle.4": "Liity jäseneksi",
 
-    "about.title.1": "Yhdistyksestä",
-    "about.subtitle.1": "Tutustu yhdistykseemme",
-    "about.title.2": "Hallitus",
+    "about.title": "Hallitus",
+    "board.title.2": "Yhdistyksestä",
     "about.subtitle.2": "Tutustu hallitukseemme",
     "about.title.3": "Historia",
     "about.subtitle.3": "Tutustu yhdistyksen historiaan",
