@@ -27,6 +27,12 @@ img { display: block; max-width: 65vw; }
 .footer { background-color: #000000; border-top: 2px solid var(--color-primary); padding: 0.1rem; text-align: center; }
 .footer-text { color: var(--color-primary-text); font-size: 1rem; }
 
+.item-board-card { align-items: center; background-color: var(--color-01db-elevation); justify-items: center; width: 20rem; text-align: center; }
+.item-board-card img { height: 15rem; width: 15rem; }
+.item-board-card-past { align-items: center; background-color: var(--color-01db-elevation); justify-items: center; width: 15rem; text-align: center; }
+.item-board-card-past img { height: 10rem; width: 10rem; }
+.item-board-current { align-items: center; display: flex; flex-direction: row; flex-wrap: wrap; gap: 1.5rem; justify-content: space-evenly; }
+.item-board-past { align-items: center; display: flex; flex-direction: row; flex-wrap: wrap; gap: 1.5rem; justify-content: space-evenly; }
 .item-carousel { display: flex; gap: 1.5rem; overflow-x: auto; scrollbar-width: none; scroll-behavior: smooth; scroll-snap-type: x mandatory; width: 100%; }
 .item-carousel-slide { background-color: var(--color-02db-elevation); flex: 0 0 calc((100% - (1.5rem * 2)) / 3); height: 20rem; justify-items: center; scroll-snap-align: start; width:33.3%; }
 .item-carousel-slide img { display: block; height: 100%; object-fit: cover; width: auto; }
@@ -51,8 +57,6 @@ img { display: block; max-width: 65vw; }
 .nav-right { align-items: center; display: flex; gap: 1rem; margin-left: auto; }
 .nav-trigger { cursor: pointer; padding: 0.5rem; }
 
-.section-board-current { display: flex; }
-.section-board-past { display: flex; }
 .section-carousel { display: flex; align-items: center; gap: 1.5rem; }
 .section-page { display: flex; flex-direction: column; gap: 1.5rem; margin: auto; max-width: var(--max-width-content); padding: 1.5rem; }
 .section-hero { background-color: #000000; border-bottom: 2px solid var(--color-primary); justify-items: center; padding: 2rem; text-align: center; }

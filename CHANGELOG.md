@@ -2,6 +2,25 @@
 
 Brief information what was added, removed or changed each day to keep track.
 
+## 24/7/2026
+
+### Added
+
+- board photos
+
+### Changed
+
+- all index.html
+    - Added UTF-8 meta tag
+- board/index.html
+    - Added current board section
+    - Added past board section
+- en.json & fi.json
+    - Added board translations
+- nginx.conf
+    - Fixed /en/board routing
+    - Fixxed /board routing
+
 ## 23/7/2026
 
 ### Changed
