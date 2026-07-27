@@ -27,10 +27,10 @@ img { display: block; max-width: 65vw; }
 .footer { background-color: #000000; border-top: 2px solid var(--color-primary); padding: 0.1rem; text-align: center; }
 .footer-text { color: var(--color-primary-text); font-size: 1rem; }
 
-.item-board-card { align-items: center; background-color: var(--color-01db-elevation); justify-items: center; width: 20rem; text-align: center; }
-.item-board-card img { height: 15rem; width: 15rem; }
-.item-board-card-past { align-items: center; background-color: var(--color-01db-elevation); justify-items: center; width: 15rem; text-align: center; }
-.item-board-card-past img { height: 10rem; width: 10rem; }
+.item-board-card { align-items: center; background-color: var(--color-01db-elevation); justify-items: center; padding: 1rem; text-align: center;  height: 21rem; width: 21rem; }
+.item-board-card img { clip-path: circle(); height: 15rem; width: 15rem; }
+.item-board-card-past { align-items: center; background-color: var(--color-01db-elevation); justify-items: center; padding: 1rem; text-align: center; width: 15rem; }
+.item-board-card-past img { clip-path: circle(); height: 10rem; width: 10rem; }
 .item-board-current { align-items: center; display: flex; flex-direction: row; flex-wrap: wrap; gap: 1.5rem; justify-content: space-evenly; }
 .item-board-past { align-items: center; display: flex; flex-direction: row; flex-wrap: wrap; gap: 1.5rem; justify-content: space-evenly; }
 .item-carousel { display: flex; gap: 1.5rem; overflow-x: auto; scrollbar-width: none; scroll-behavior: smooth; scroll-snap-type: x mandatory; width: 100%; }
@@ -46,7 +46,7 @@ img { display: block; max-width: 65vw; }
 .nav-hamburger.active .bar:nth-child(1) { opacity: 0; }
 .nav-hamburger.active .bar:nth-child(2) { transform: rotate(45deg); }
 .nav-hamburger.active .bar:nth-child(3) { transform: translateY(-0.5rem) rotate(-45deg); }
-.nav-header { background-color: var(--background-color-primary); border-bottom: 2px solid var(--color-primary); position: sticky; top: 0; }
+.nav-header { background-color: var(--background-color-primary); border-bottom: 2px solid var(--color-primary); position: sticky; top: 0; z-index: 1}
 .nav-inner { align-items: center; box-sizing: border-box; gap: 2rem; display: flex; margin: 0 auto; max-width: var(--max-width-content); padding: 1rem; }
 .nav-lang-button { background-color: var(--color-primary); border: 2px solid var(--color-primary-text); border-radius: 10px; color: var(--color-primary-text); cursor: pointer; display: block; font-family: Inconsolata; font-size: 1.5rem; height: 3rem; padding: 0.5rem; width: 3rem; }
 .nav-links { display: flex; gap: 0.5rem; }
