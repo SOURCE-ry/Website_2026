@@ -2,6 +2,23 @@
 
 Brief information what was added, removed or changed each day to keep track.
 
+## 25/7/2026
+
+### Added
+
+- boardmember_placeholder.png
+
+### Changed
+
+- board/index.html
+    - Added past boards
+    - Added images for past boards
+- style.css
+    - Added styling for images
+    - Fixed clipping issue
+- en.json and fi.json
+    - Added board role translations
+
 ## 24/7/2026
 
 ### Added

@@ -10,9 +10,9 @@
 <body>
     <header id="nav-header" class="nav-header"></header>
     <section class="section-page">
-        <h1 class="item-title" data-translate="board.title"></h1>
+        <h1 class="item-title-board" data-translate="board.title"></h1>
         <section class="section-board-current">
-            <h2 data-translate="board.current"></h2>
+            <h2 class="item-title-board" data-translate="board.current"></h2>
             <div class="item-board-current">
                 <div class="item-board-card">
                     <img src="/resources/images/board/2026/riku.jpg" alt="Riku Hakamäki portrait"/>
@@ -65,7 +65,8 @@
                     <h3 data-translate="board.webmaster"></h3>
                 </div>
             </div>
-            <div class="item-board-officer">
+            <h2 class="item-title-board" data-translate="board.officer.title"></h2>
+            <div class="item-board-officers">
                 <h3>
                     <b data-translate="board.officer.titelan"></b><b>:</b>
                     <span>Topias Ahola</span>
@@ -112,10 +113,11 @@
                 </h3>
             </div>
         </section>
-        <h2 data-translate="board.past"></h2>
+        <!-- Past boards -->
+        <h2 class="item-title-board" data-translate="board.past"></h2>
         <!-- 2025 board -->
         <section class="section-board-past">
-            <h2>2025</h2>
+            <h2 class="item-title-board">2025</h2>
             <div class="item-board-past">
                 <div class="item-board-card-past">
                     <img src="/resources/images/board/2025/juha.jpg" alt="Juha Hautakangas portrait"/>
@@ -168,7 +170,7 @@
                     <h3 data-translate="board.webmaster"></h3>
                 </div>
             </div>
-            <h2 data-translate="board.officer.title"></h2>
+            <h2 class="item-title-board" data-translate="board.officer.title"></h2>
             <div class="item-board-officers">
                 <p>
                     <b data-translate="board.officer"></b><b>:</b>
@@ -210,7 +212,7 @@
         </section>
         <!-- 2024 board -->
         <section class="section-board-past">
-            <h2>2024</h2>
+            <h2 class="item-title-board">2024</h2>
             <div class="item-board-past">
                 <div class="item-board-card-past">
                     <img src="/resources/images/board/2024/sylvi.jpg" alt="Sylvi Kokko portrait"/>
@@ -263,7 +265,7 @@
                     <h3 data-translate="board.webmaster"></h3>
                 </div>
             </div>
-            <h2 data-translate="board.officer.title"></h2>
+            <h2 class="item-title-board" data-translate="board.officer.title"></h2>
             <div class="item-board-officers">
                 <p>
                     <b data-translate="board.officer"></b><b>:</b>
@@ -293,7 +295,7 @@
         </section>
         <!-- 2023 board -->
         <section class="section-board-past">
-            <h2>2023</h2>
+            <h2 class="item-title-board">2023</h2>
             <div class="item-board-past">
                 <div class="item-board-card-past">
                     <img src="/resources/images/board/2023/toni.jpg" alt="Toni Rantanen portrait"/>
@@ -346,7 +348,7 @@
                     <h3 data-translate="board.webmaster"></h3>
                 </div>
             </div>
-            <h2 data-translate="board.officer.title"></h2>
+            <h2 class="item-title-board" data-translate="board.officer.title"></h2>
             <div class="item-board-officers">
                 <p>
                     <b data-translate="board.officer.webjunior"></b><b>:</b>
@@ -394,7 +396,7 @@
         </section>
         <!-- 2022 board -->
         <section class="section-board-past">
-            <h2>2022</h2>
+            <h2 class="item-title-board">2022</h2>
             <div class="item-board-past">
                 <div class="item-board-card-past">
                     <img src="/resources/images/board/2022/nelli.jpg" alt="Nelli Niinivaara portrait"/>
@@ -417,7 +419,7 @@
                     <h3 data-translate="board.events"></h3>
                 </div>
                 <div class="item-board-card-past">
-                    <img src="/resources/images/board/2022/arttu.jpg" alt="Arttu Uuranmäki portrait"/>
+                    <img src="/resources/images/board/2022/safiul.jpg" alt="Safiul Alam portrait"/>
                     <h3>Safiul Alam</h3>
                     <h3 data-translate="board.leisure"></h3>
                 </div>
@@ -447,7 +449,7 @@
                     <h3 data-translate="board.webmaster"></h3>
                 </div>
             </div>
-            <h2 data-translate="board.officer.title"></h2>
+            <h2 class="item-title-board" data-translate="board.officer.title"></h2>
             <div class="item-board-officers">
                 <p>
                     <b data-translate="board.officer.iovirta"></b><b>:</b>
@@ -483,7 +485,7 @@
         </section>
         <!-- 2021 board -->
         <section class="section-board-past">
-            <h2>2021</h2>
+            <h2 class="item-title-board">2021</h2>
             <div class="item-board-past">
                 <div class="item-board-card-past">
                     <img src="/resources/images/board/boardmember_placeholder.png" alt="Portrait placeholder"/>
@@ -531,8 +533,20 @@
                     <h3 data-translate="board.international"></h3>
                 </div>
             </div>
-            <h2 data-translate="board.officer.title"></h2>
+            <h2 class="item-title-board" data-translate="board.officer.title"></h2>
             <div class="item-board-officers">
+                <p>
+                    <b data-translate="board.officer.iotseminar"></b><b>:</b>
+                    <span>Jaakko Peltonen</span>
+                </p>
+                <p>
+                    <b data-translate="board.officer.iotseminar"></b><b>:</b>
+                    <span>Aleksi Siponen</span>
+                </p>
+                <p>
+                    <b data-translate="board.officer.iotseminar"></b><b>:</b>
+                    <span>Aino Syrjälä</span>
+                </p>
                 <p>
                     <b data-translate="board.webmaster"></b>
                     <b>&</b>
@@ -543,7 +557,7 @@
         </section>
         <!-- 2020 board -->
         <section class="section-board-past">
-            <h2>2020</h2>
+            <h2 class="item-title-board">2020</h2>
             <div class="item-board-past">
                 <div class="item-board-card-past">
                     <img src="/resources/images/board/boardmember_placeholder.png" alt="Portrait placeholder"/>
@@ -552,7 +566,7 @@
                 </div>
                 <div class="item-board-card-past">
                     <img src="/resources/images/board/boardmember_placeholder.png" alt="Portrait placeholder"/>
-                    <h3>Artturi Koutonen</h3>
+                    <h3>Mirko Lindroth</h3>
                     <h3 data-translate="board.vicechairperson"></h3>
                 </div>
                 <div class="item-board-card-past">
@@ -562,18 +576,23 @@
                 </div>
                 <div class="item-board-card-past">
                     <img src="/resources/images/board/boardmember_placeholder.png" alt="Portrait placeholder"/>
-                    <h3>Joonas Korpela</h3>
+                    <h3>Nelli Niinivaara</h3>
+                    <h3 data-translate="board.secretary"></h3>
+                </div>
+                <div class="item-board-card-past">
+                    <img src="/resources/images/board/boardmember_placeholder.png" alt="Portrait placeholder"/>
+                    <h3>Henna Mäkinen</h3>
                     <h3 data-translate="board.events"></h3>
                 </div>
                 <div class="item-board-card-past">
                     <img src="/resources/images/board/boardmember_placeholder.png" alt="Portrait placeholder"/>
-                    <h3>Toni Rantanen</h3>
+                    <h3>Joni Suominen</h3>
                     <h3 data-translate="board.leisure"></h3>
                 </div>
                 <div class="item-board-card-past">
                     <img src="/resources/images/board/boardmember_placeholder.png" alt="Portrait placeholder"/>
-                    <h3>Nelli Niinivaara</h3>
-                    <h3 data-translate="board.secretarycommunications"></h3>
+                    <h3>Jaakko Peltonen</h3>
+                    <h3 data-translate="board.communicationslegacy"></h3>
                 </div>
                 <div class="item-board-card-past">
                     <img src="/resources/images/board/boardmember_placeholder.png" alt="Portrait placeholder"/>
@@ -582,23 +601,218 @@
                 </div>
                 <div class="item-board-card-past">
                     <img src="/resources/images/board/boardmember_placeholder.png" alt="Portrait placeholder"/>
-                    <h3>Tomi Minkkinen</h3>
+                    <h3>Mikko Wrightson</h3>
                     <h3 data-translate="board.externalrelations"></h3>
                 </div>
-                <div class="item-board-card-past">
-                    <img src="/resources/images/board/boardmember_placeholder.png" alt="Portrait placeholder"/>
-                    <h3>Aaro Toivonen</h3>
-                    <h3 data-translate="board.international"></h3>
-                </div>
             </div>
-            <h2 data-translate="board.officer.title"></h2>
+            <h2 class="item-title-board" data-translate="board.officer.title"></h2>
             <div class="item-board-officers">
+                <p>
+                    <b data-translate="board.officer.titelan"></b><b>:</b>
+                    <span>Miika Lahti</span>
+                </p>
+                <p>
+                    <b data-translate="board.officer.titelan"></b><b>:</b>
+                    <span>Juho-Petteri Lindblom</span>
+                </p>
+                <p>
+                    <b data-translate="board.officer.titelan"></b><b>:</b>
+                    <span>Jerry Lindsrtöm</span>
+                </p>
+                <p>
+                    <b data-translate="board.officer.titelan"></b><b>:</b>
+                    <span>Matti Tiitola</span>
+                </p>
+                <p>
+                    <b data-translate="board.officer"></b><b>:</b>
+                    <span>Petri Pellinen</span>
+                </p>
                 <p>
                     <b data-translate="board.webmaster"></b>
                     <b>&</b>
                     <b data-translate="board.officer.iovirta"></b><b>:</b>
                     <span>Janne Vanhanen</span>
                 </p>
+            </div>
+        </section>
+        <!-- 2019 board -->
+        <section class="section-board-past">
+            <h2 class="item-title-board">2019</h2>
+            <div class="item-board-past">
+                <div class="item-board-card-past">
+                    <img src="/resources/images/board/boardmember_placeholder.png" alt="Portrait placeholder"/>
+                    <h3>Jouni Parkki</h3>
+                    <h3 data-translate="board.chairperson"></h3>
+                </div>
+                <div class="item-board-card-past">
+                    <img src="/resources/images/board/boardmember_placeholder.png" alt="Portrait placeholder"/>
+                    <h3>Sander Kallio</h3>
+                    <h3 data-translate="board.vicechairperson"></h3>
+                </div>
+                <div class="item-board-card-past">
+                    <img src="/resources/images/board/boardmember_placeholder.png" alt="Portrait placeholder"/>
+                    <h3>Stella Luukko</h3>
+                    <h3 data-translate="board.treasurer"></h3>
+                </div>
+                <div class="item-board-card-past">
+                    <img src="/resources/images/board/boardmember_placeholder.png" alt="Portrait placeholder"/>
+                    <h3>Henna Mäkinen</h3>
+                    <h3 data-translate="board.secretary"></h3>
+                </div>
+                <div class="item-board-card-past">
+                    <img src="/resources/images/board/boardmember_placeholder.png" alt="Portrait placeholder"/>
+                    <h3>Petri Pellinen</h3>
+                    <h3 data-translate="board.events"></h3>
+                </div>
+                <div class="item-board-card-past">
+                    <img src="/resources/images/board/boardmember_placeholder.png" alt="Portrait placeholder"/>
+                    <h3>Jere Aho</h3>
+                    <h3 data-translate="board.leisure"></h3>
+                </div>
+                <div class="item-board-card-past">
+                    <img src="/resources/images/board/boardmember_placeholder.png" alt="Portrait placeholder"/>
+                    <h3>Heini Hentilä</h3>
+                    <h3 data-translate="board.communicationslegacy"></h3>
+                </div>
+                <div class="item-board-card-past">
+                    <img src="/resources/images/board/boardmember_placeholder.png" alt="Portrait placeholder"/>
+                    <h3>Artturi Koutonen</h3>
+                    <h3 data-translate="board.members"></h3>
+                </div>
+                <div class="item-board-card-past">
+                    <img src="/resources/images/board/boardmember_placeholder.png" alt="Portrait placeholder"/>
+                    <h3>Mirko Lindroth</h3>
+                    <h3 data-translate="board.externalrelations"></h3>
+                </div>
+            </div>
+            <h2 class="item-title-board" data-translate="board.officer.title"></h2>
+            <div class="item-board-officers">
+                <p>
+                    <b data-translate="board.officer"></b><b>:</b>
+                    <span>Tommi Aalto</span>
+                </p>
+                <p>
+                    <b data-translate="board.officer.titelan"></b><b>:</b>
+                    <span>Joel Niemi</span>
+                </p>
+                <p>
+                    <b data-translate="board.officer"></b><b>:</b>
+                    <span>Miiro Opas</span>
+                </p>
+                <p>
+                    <b data-translate="board.officer.iovirta"></b><b>:</b>
+                    <span>Janne Pihlajaniemi</span>
+                </p>
+                <p>
+                    <b data-translate="board.officer.titelan"></b><b>:</b>
+                    <span>Markus Pusa</span>
+                </p>
+                <p>
+                    <b data-translate="board.officer.titelan"></b><b>:</b>
+                    <span>Ville Walenius</span>
+                </p>
+            </div>
+        </section>
+        <!-- 2018 board -->
+        <section class="section-board-past">
+            <h2 class="item-title-board">2018</h2>
+            <div class="item-board-past">
+                <div class="item-board-card-past">
+                    <img src="/resources/images/board/boardmember_placeholder.png" alt="Portrait placeholder"/>
+                    <h3>Heini Hentilä</h3>
+                    <h3 data-translate="board.chairperson"></h3>
+                </div>
+                <div class="item-board-card-past">
+                    <img src="/resources/images/board/boardmember_placeholder.png" alt="Portrait placeholder"/>
+                    <h3>Jenni Tammenmaa</h3>
+                    <h3 data-translate="board.vicechairperson"></h3>
+                </div>
+                <div class="item-board-card-past">
+                    <img src="/resources/images/board/boardmember_placeholder.png" alt="Portrait placeholder"/>
+                    <h3>Riku Kärki</h3>
+                    <h3 data-translate="board.treasurer"></h3>
+                </div>
+                <div class="item-board-card-past">
+                    <img src="/resources/images/board/boardmember_placeholder.png" alt="Portrait placeholder"/>
+                    <h3>Jere Aho</h3>
+                    <h3 data-translate="board.secretary"></h3>
+                </div>
+                <div class="item-board-card-past">
+                    <img src="/resources/images/board/boardmember_placeholder.png" alt="Portrait placeholder"/>
+                    <h3>Petri Pellinen</h3>
+                    <h3 data-translate="board.events"></h3>
+                </div>
+                <div class="item-board-card-past">
+                    <img src="/resources/images/board/boardmember_placeholder.png" alt="Portrait placeholder"/>
+                    <h3>Aleksi Siponen</h3>
+                    <h3 data-translate="board.leisure"></h3>
+                </div>
+                <div class="item-board-card-past">
+                    <img src="/resources/images/board/boardmember_placeholder.png" alt="Portrait placeholder"/>
+                    <h3>Jouni Parkki</h3>
+                    <h3 data-translate="board.communicationslegacy"></h3>
+                </div>
+                <div class="item-board-card-past">
+                    <img src="/resources/images/board/boardmember_placeholder.png" alt="Portrait placeholder"/>
+                    <h3>Tommi Aalto</h3>
+                    <h3 data-translate="board.members"></h3>
+                </div>
+                <div class="item-board-card-past">
+                    <img src="/resources/images/board/boardmember_placeholder.png" alt="Portrait placeholder"/>
+                    <h3>Janne Pihlajaniemi</h3>
+                    <h3 data-translate="board.externalrelations"></h3>
+                </div>
+            </div>
+        </section>
+        <!-- 2017 board -->
+        <section class="section-board-past">
+            <h2 class="item-title-board">2017</h2>
+            <div class="item-board-past">
+                <div class="item-board-card-past">
+                    <img src="/resources/images/board/boardmember_placeholder.png" alt="Portrait placeholder"/>
+                    <h3>Heini Hentilä</h3>
+                    <h3 data-translate="board.chairperson"></h3>
+                </div>
+                <div class="item-board-card-past">
+                    <img src="/resources/images/board/boardmember_placeholder.png" alt="Portrait placeholder"/>
+                    <h3>Jenni Tammenmaa</h3>
+                    <h3 data-translate="board.vicechairperson"></h3>
+                </div>
+                <div class="item-board-card-past">
+                    <img src="/resources/images/board/boardmember_placeholder.png" alt="Portrait placeholder"/>
+                    <h3>Riku Kärki</h3>
+                    <h3 data-translate="board.treasurer"></h3>
+                </div>
+                <div class="item-board-card-past">
+                    <img src="/resources/images/board/boardmember_placeholder.png" alt="Portrait placeholder"/>
+                    <h3>Ossi Nuutero</h3>
+                    <h3 data-translate="board.secretary"></h3>
+                </div>
+                <div class="item-board-card-past">
+                    <img src="/resources/images/board/boardmember_placeholder.png" alt="Portrait placeholder"/>
+                    <h3>Petri Pellinen</h3>
+                    <h3 data-translate="board.events"></h3>
+                </div>
+                <div class="item-board-card-past">
+                    <img src="/resources/images/board/boardmember_placeholder.png" alt="Portrait placeholder"/>
+                    <h3>Teemu Nuorteva</h3>
+                    <h3 data-translate="board.leisure"></h3>
+                </div>
+                <div class="item-board-card-past">
+                    <img src="/resources/images/board/boardmember_placeholder.png" alt="Portrait placeholder"/>
+                    <h3>Mikko Hulkkonen</h3>
+                    <h3 data-translate="board.communicationslegacy"></h3>
+                </div>
+                <div class="item-board-card-past">
+                    <img src="/resources/images/board/boardmember_placeholder.png" alt="Portrait placeholder"/>
+                    <h3>Matti Tuomas</h3>
+                    <h3 data-translate="board.members"></h3>
+                </div>
+                <div class="item-board-card-past">
+                    <img src="/resources/images/board/boardmember_placeholder.png" alt="Portrait placeholder"/>
+                    <h3>Janne Pihlajaniemi</h3>
+                    <h3 data-translate="board.externalrelations"></h3>
+                </div>
             </div>
         </section>
     </section>
