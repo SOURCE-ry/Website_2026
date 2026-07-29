@@ -2,7 +2,25 @@
 
 Brief information what was added, removed or changed each day to keep track.
 
-## 25/7/2026
+## 29/7/2026
+
+### Changed
+
+
+
+## 28/7/2026
+
+### Changed
+
+- board/index.html
+    - Added past boards
+- index.html
+    - Centered titles
+    - Cnetered paragraphs
+- en.json and fi.json
+    - Added legacy board translation
+
+## 27/7/2026
 
 ### Added
 
