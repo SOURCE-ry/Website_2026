@@ -2,11 +2,23 @@
 
 Brief information what was added, removed or changed each day to keep track.
 
+## 30/7/2026
+
+### Changed
+
+- partners/index.html
+    - Added partner descriptions
+- en.json and fi.json
+    - Added partner description translations
+
 ## 29/7/2026
 
 ### Changed
 
-
+- partners/index.html
+    - Added partner logos and links
+- en.json and fi.json
+    - Added partner translations
 
 ## 28/7/2026
 
