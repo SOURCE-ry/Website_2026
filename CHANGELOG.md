@@ -2,6 +2,18 @@
 
 Brief information what was added, removed or changed each day to keep track.
 
+## 31/7/2026
+
+### Changed
+
+- partners/index.html
+    - Added info text to rest of the sections
+    - fixed typo in current partners section
+- en.json and fi.json
+    - Added translations for info text
+- index.html
+    - fixed typo in current partners section
+
 ## 30/7/2026
 
 ### Changed
