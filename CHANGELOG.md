@@ -2,6 +2,18 @@
 
 Brief information what was added, removed or changed each day to keep track.
 
+## 3/8/2026
+
+- partners/index.html
+    - Added rest of partners
+    - Added email link to contact section
+- en.json and fi.json
+    - Added translations for rest of partners
+- style.css
+    - Added styling to partners
+- index.html
+    - Fixed link
+
 ## 31/7/2026
 
 ### Changed
