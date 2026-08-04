@@ -2,6 +2,21 @@
 
 Brief information what was added, removed or changed each day to keep track.
 
+## 4/8/2026
+
+### Added
+
+- kerhohuone.png
+
+### Changed
+
+- contact/index.html
+    - Added suggestion form and map to contact page
+- en.json and fi.json
+    - Added translations for suggestion form and map
+- style.css
+    - Added styling for suggestion form and map
+
 ## 3/8/2026
 
 - partners/index.html
