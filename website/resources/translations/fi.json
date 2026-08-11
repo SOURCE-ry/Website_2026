@@ -68,7 +68,10 @@
     "students.title.3": "Toiminta",
     "students.subtitle.3": "Tutustu toimintaan",
     "students.title.4": "Liity jäseneksi",
-    "students.subtitle.4": "Liity jäseneksi",
+    "students.join.ict": "Tietotekniikan opiskelijat",
+    "students.join.other": "Muut opiskelijat ja sedät",
+    "students.join.para.1": "Jäsenyys on avoin kaikille TAMKin opiskelijoille koulutusohjelmasta riippumatta. Liittymällä SOURCE ry:hyn pääset osaksi aktiivista Tietotekniikan opiskelijoiden yhteisöä sekä saat käyttöösi eksklusiivisia tapahtumia ja arvokkaita verkostoitumismahdollisuuksia.",
+    "students.join.para.2": "Jäsenyys maksaa vain 5 € lukuvuodessa, ja voit liittyä jäseneksi Kide.appin kautta. Klikkaa alla olevia linkkejä ja liity jäseneksi jo tänään!",
 
     "board.title": "Hallitus",
     "board.current": "Nykyinen hallitus",
@@ -96,11 +99,16 @@
     "board.officer.iovirta": "IO-Virta",
 
     "contact.title.1": "Yhteystiedot",
-    "contact.subtitle.1": "hallitus@source.club",
     "contact.title.2": "Yritysyhteistyö",
-    "contact.subtitle.2": "ulkosuhteet@source.club",
+    "contact.email": "Sähköposti",
+    "contact.address": "Osoite",
+    "contact.clubroom": "Kerhohuone",
+    "contact.clubroom.location": "A-siipi kellarikerros A0-35",
+    "contact.clubroom.title": "Kuinka löytää kerhohuone",
+    "contact.clubroom.para.1": "Löytääksesi kerhohuoneen, kävele kaikkien muiden ainejärjestöjen kerhohuoneiden ohi, kävele suoraan vastaan tulevan oven läpi ja jatka melkein ulko-ovelle asti.",
+    "contact.clubroom.para.2": "Kerhohuoneen oven tilan löydät osoitteesta",
     "contact.form.title": "Kerhohuoneen ehdotuslomake",
-    "contact.map.title": "Kuinka löytää kerhohuone",
+    "contact.map.title": "Kartta kerhohuoneeseen",
 
     "footer.text": "SOURCE ry"
 }

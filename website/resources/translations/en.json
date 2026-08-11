@@ -68,7 +68,10 @@
     "students.title.3": "Activities",
     "students.subtitle.3": "Check out the activities",
     "students.title.4": "Join as a member",
-    "students.subtitle.4": "Join as a member",
+    "students.join.ict": "ICT students",
+    "students.join.other": "Other students and uncs",
+    "students.join.para.1": "Membership is open to all TAMK students, regardless of their degree programme. By joining SOURCE ry, you gain access to a vibrant community of ICT students, exclusive events, and valuable networking opportunities.",
+    "students.join.para.2": "Membership costs only 5€ per academic year, and you can join through Kide.app. Click the links below to become a member today!",
 
     "board.title": "Board",
     "board.current": "Current Board",
@@ -96,11 +99,16 @@
     "board.officer.iovirta": "IO-Virta",
 
     "contact.title.1": "Contact Information",
-    "contact.subtitle.1": "hallitus@source.club",
     "contact.title.2": "Company Collaboration",
-    "contact.subtitle.2": "ulkosuhteet@source.club",
+    "contact.email": "Email",
+    "contact.address": "Address",
+    "contact.clubroom": "Clubroom",
+    "contact.clubroom.location": "Wing-A, basement floor A0-35",
+    "contact.clubroom.title": "How to find the clubroom",
+    "contact.clubroom.para.1": "To find the club room, walk past every club room in the basement floor, walk through the door that comes straight ahead in the corridor and walk almost to the outside door.",
+    "contact.clubroom.para.2": "You can find the status of the club room door at",
     "contact.form.title": "Clubroom Suggestion Form",
-    "contact.map.title": "How to find the clubroom",
+    "contact.map.title": "Map to clubroom",
 
     "footer.text": "SOURCE ry"
 }

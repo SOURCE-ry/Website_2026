@@ -2,6 +2,22 @@
 
 Brief information what was added, removed or changed each day to keep track.
 
+## 11/8/2026
+
+## Changed
+
+- contact/index.html
+    - Added guide to find the clubroom
+    - Added link to door status
+- partners/index.html
+    - Changed email link to look better
+- students/index.html
+    - Added guide to join as a member
+- en.json and fi.json
+    - Added translations for contact page
+    - Added translations for students page
+
+
 ## 4/8/2026
 
 ### Added
