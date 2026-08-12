@@ -2,9 +2,23 @@
 
 Brief information what was added, removed or changed each day to keep track.
 
+## 12/8/2026
+
+### Changed
+
+- students/index.html
+    - Added products section
+- contact/index.html
+    - Changed keys to renamed keys
+- partners/index.html
+    - Changed keys to renamed keys
+- en.json and fi.json
+    - Added translations for students page
+    - Renamed title keys for clarity
+
 ## 11/8/2026
 
-## Changed
+### Changed
 
 - contact/index.html
     - Added guide to find the clubroom
