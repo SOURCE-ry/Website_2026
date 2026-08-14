@@ -2,6 +2,17 @@
 
 Brief information what was added, removed or changed each day to keep track.
 
+## 13/8/2026
+
+### Changed
+
+- students/index.html
+    - Added text to products section
+    - Added text to membership section
+- en.json and fi.json
+    - Added translations for products section
+    - Added translations for membership section
+
 ## 12/8/2026
 
 ### Changed
