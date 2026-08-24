@@ -44,7 +44,8 @@ html, body, footer { background-color: var(--background-color-primary); color: v
 .item-partner { align-items: center; background-color: var(--color-01db-elevation); display: flex; flex-direction: column; justify-content: center; padding: 1rem; text-align: center; }
 .item-partner img { height: 10rem; object-fit: contain; width: 10rem; }
 .item-partners { align-items: center; display: flex; flex-direction: row; flex-wrap: wrap; gap: 1.5rem; justify-content: space-evenly; }
-.item-partners img { display: block; object-fit: contain; width: 10rem; }
+.item-partners a { align-items: center; display: flex; background-color: var(--color-01db-elevation); height: 11rem; justify-content: center; padding: 1rem; width: 11rem; }
+.item-partners img { object-fit: contain; width: 10rem; }
 .item-partners-title { text-align: center; }
 .item-text { background-color: var(--color-01db-elevation); display: block; grid-area: item; padding: 1rem; text-align: center; }
 .item-title-board { text-align: center; }

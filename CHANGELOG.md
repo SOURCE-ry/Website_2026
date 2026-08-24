@@ -2,6 +2,19 @@
 
 Brief information what was added, removed or changed each day to keep track.
 
+## 24/8/2026
+
+### Changed
+
+- style.css
+    - Changed front page sponsor styling
+- en.json and fi.json
+    - Added translations for students page events section
+    - Added translations for students page activities section
+- students/index.html
+    - Added text to events section
+    - Added text to activities section
+
 ## 13/8/2026
 
 ### Changed
