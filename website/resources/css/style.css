@@ -39,8 +39,7 @@ html, body, footer { background-color: var(--background-color-primary); color: v
 .item-carousel-slide img { display: block; height: 100%; object-fit: cover; width: auto; }
 .item-form { background-color: var(--color-01db-elevation); display: flex; flex-direction: column; grid-area: item; justify-items: center; padding: 1rem; text-align: center; }
 .item-form iframe { border: none; height: 100%; width: 100%; }
-.item-image { background-color: var(--color-01db-elevation); display: block; grid-area: image; justify-items: center; padding: 1rem; }
-.item-image img { width: 100%; }
+.item-image { background-color: var(--color-01db-elevation); display: block; grid-area: image; justify-items: center; padding: 1rem; text-align: center; }
 .item-partner { align-items: center; background-color: var(--color-01db-elevation); display: flex; flex-direction: column; justify-content: center; padding: 1rem; text-align: center; }
 .item-partner img { height: 10rem; object-fit: contain; width: 10rem; }
 .item-partners { align-items: center; display: flex; flex-direction: row; flex-wrap: wrap; gap: 1.5rem; justify-content: space-evenly; }

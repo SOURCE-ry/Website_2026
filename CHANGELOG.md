@@ -2,6 +2,24 @@
 
 Brief information what was added, removed or changed each day to keep track.
 
+## 25/8/2026
+
+### Added
+
+- events.js
+- eventCard.html
+- source-logo-vuju-512p.png
+- source-logo-vuju-360p.png
+
+### Changed
+
+- events/index.html
+    - Added events.js script for testing
+- students/index.html
+    - Fixed translation
+- index.html
+    - Fixed image size issue
+
 ## 24/8/2026
 
 ### Changed
